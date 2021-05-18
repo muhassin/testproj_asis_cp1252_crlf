@@ -6,11 +6,12 @@ public class DefaultsCP1252CRLF {
 
     /*
      * CHANGE THE LINE BELOW: lowercase -> UPPERCASE
-     * test ångström älämölö € š test
+     * TEST ÅNGSTRÖM ÄLÄMÖLÖ € š test
      * ... Just that line above.
      */
 
     // ADD A LINE WITH SOME  Ä Ö  CHARACTERS RIGHT BELOW THIS LINE.
+    // some  ä ö
     /*
      * Do NOT change the text below this (these lines are for checking that unmodified parts
      * do not get affected by a development round trip).
