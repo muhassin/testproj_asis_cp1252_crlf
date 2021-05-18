@@ -1,0 +1,6 @@
+# disables "normalization" (so NO converting newlines to LF when going out to repository, and should
+# not convert to CRLF on Windows when coming from repository, either)
+* -text
+
+# enable normalization on auto-detected text files in .idea directory
+/.idea/** text=auto

@@ -1,0 +1,37 @@
+# top-most EditorConfig file
+root = true
+
+# UNSET charset so that IDE can (and must be) used for it
+# NOT enforcing a default newline
+# NOT enforcing indent or final newline in general
+[*]
+charset = unset
+
+[src/main_win/**]
+end_of_line = crlf
+
+# Exceptions
+[{README.md,.gitattributes,.editorconfig}]
+charset = utf-8
+end_of_line = lf
+
+[src/main_std/**]
+charset = utf-8
+end_of_line = lf
+
+[src/main_std/**.properties]
+charset = latin1
+
+[src/main_win/resources/latin1_crlf.txt]
+charset = latin1
+
+[src/main_win/resources/utf8_crlf.htm]
+charset = utf-8
+
+# Code files
+[*.{java,js,py,groovy}]
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+# NOT setting max_line_length, due to IDEs/editors being really crap with auto-formatting multiple lines

@@ -1,0 +1,5 @@
+*.iml
+!/testproj_asis_cp1252_crlf.iml
+/.idea/**
+!/.idea/encodings.xml
+target/

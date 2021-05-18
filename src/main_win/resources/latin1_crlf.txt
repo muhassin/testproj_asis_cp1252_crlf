@@ -1,0 +1,12 @@
+This file should have explicitly set LATIN1 charset, and CRLF by default for its path
+
+CHANGE THE LINE BELOW: lowercase -> UPPERCASE
+test ångström älämölö ¤ test
+... Just that line above.
+
+
+!!--- ADD A LINE WITH SOME  Ä Ö  CHARACTERS RIGHT BELOW THIS LINE. ---!!
+Do NOT change the text below this (these lines are for checking that unmodified parts
+do not get affected by a development round trip).
+check älä sörki tätä tekstiä ½ check
+sweet
