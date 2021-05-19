@@ -9,6 +9,8 @@ charset = unset
 
 [src/main_win/**]
 end_of_line = crlf
+[src/main_win/**.properties]
+charset = latin1
 
 # Exceptions
 [{README.md,.gitattributes,.editorconfig}]
